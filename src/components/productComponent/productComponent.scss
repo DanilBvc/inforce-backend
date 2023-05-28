@@ -1,0 +1,35 @@
+.product-items {
+  border: 2px solid #4970b5;
+  padding: 10px;
+
+  img {
+    max-width: 5vw;
+    max-height: 5vw;
+  }
+
+  .product-item-info {
+    .product-item-name {
+      font-size: 2vw;
+    }
+
+    .product-item-count,
+    .product-item-size,
+    .product-item-weight {
+      font-size: 1vw;
+    }
+
+    .product-item-comments {
+      max-width: 3vw;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .product-item-comments {
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

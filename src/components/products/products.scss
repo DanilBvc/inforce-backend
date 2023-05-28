@@ -1,0 +1,18 @@
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0.6510416666666666vw;
+  grid-row-gap: 0.6510416666666666vw;
+}
+
+.buttons-wrapper {
+  display: flex;
+}
+
+.delete-product-wrapper {
+  padding: 5vw;
+
+  .buttons-wrapper {
+    margin-top: 1vw;
+  }
+}

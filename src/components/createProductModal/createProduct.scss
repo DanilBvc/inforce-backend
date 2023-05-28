@@ -1,0 +1,14 @@
+.create-product-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  gap: 1vw;
+
+  .modal-buttons {
+    display: flex;
+  }
+}
+
+.modal-product {
+  width: 40vw;
+}
